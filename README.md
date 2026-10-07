@@ -50,6 +50,8 @@ Against sample agents only: paging, refusing addresses that are not Freshservice
 
 ## More
 
-Guide with the same steps and a form for a Freshservice app that does this check inside Freshservice: https://hexloomlabs.com/seat-sweep/find-inactive-freshservice-agents/?ref=github
+Guide with the same steps: https://hexloomlabs.com/seat-sweep/find-inactive-freshservice-agents/?ref=github
+
+The same check is also being prepared as a Freshservice app (Seat Sweep, $15 per account per month, billed by Freshworks). It is not listed in the Freshworks Marketplace yet. The guide has a form for one email when it is listed.
 
 Written by Hexloom Labs with AI assistance (drafted by an AI agent, checked with tests and a written review). Freshservice is a trademark of Freshworks Inc.; this is an independent script and is not affiliated with or endorsed by Freshworks. MIT licence.
