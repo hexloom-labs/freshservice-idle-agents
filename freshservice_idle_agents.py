@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """List Freshservice full-time agents with no activity or login for N days. Read-only.
 
-Needs Python 3.8 or newer and no packages. Run it and paste an admin API key at the hidden prompt:
+Needs Python 3.9 or newer and no packages. Run it and paste an admin API key at the hidden prompt:
 
     python3 freshservice_idle_agents.py acme.freshservice.com --days 30 --price 49 --csv idle.csv
 
