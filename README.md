@@ -2,7 +2,7 @@
 
 A single Python file that lists the full-time Freshservice agents with no activity or login for 30 days (or the number you choose) and adds up what those seats cost. It reads your agent list and changes nothing.
 
-Needs Python 3.8 or newer, no packages, and an admin API key. Not yet run against a live Freshservice account (see "How it was tested").
+Needs Python 3.9 or newer, no packages, and an admin API key. Not yet run against a live Freshservice account (see "How it was tested").
 
 ## Sample output
 
