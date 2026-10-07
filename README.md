@@ -19,6 +19,8 @@ Not counted: 1 occasional, 1 deactivated.
 
 ## Run it
 
+Save `freshservice_idle_agents.py` to a folder (Code, then Download ZIP, or open the file and use Raw), then open cmd or PowerShell in that folder and run:
+
 ```
 python3 freshservice_idle_agents.py acme.freshservice.com --days 30 --price 49 --csv idle.csv
 ```
@@ -46,7 +48,7 @@ A late timestamp is not proof that a seat is in use, and an old one is not proof
 
 ## How it was tested
 
-Against sample agents only: paging, refusing addresses that are not Freshservice, never following a redirect, agent names in other alphabets, and a CSV file that shows names starting with `=`, `+`, `-` or `@` as text. It has not been run against a live Freshservice account. If it fails on yours, open an issue with what it printed (never your key).
+Against sample agents only: paging, refusing addresses that are not Freshservice, never following a redirect, agent names in other alphabets, and a CSV file that shows names starting with `=`, `+`, `-` or `@` as text. The test files are not published here. It has not been run against a live Freshservice account. If it fails on yours, open an issue with the error message only. The list itself holds your staff's names and email addresses, so leave it out, and never paste your key.
 
 ## More
 
